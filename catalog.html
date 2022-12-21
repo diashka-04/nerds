@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>nerds.ru</title>
+    <link rel="stylesheet" href="css/css-code.css">
+    <link rel="stylesheet" href="css/narmalize.css">
+  </head>
+  <body>
+    <header>
+      <div class="container clearfix">
+        <div class="navigation">
+          <img src="img/Logo.png" width="161" height="65" alt="logo-to-menu" />
+          <div class="services">
+            <ul>
+              <li><a href="index.html">студия</a></li>
+              <li><a href="#">клиенты</a></li>
+              <li><a href="catalog.html" class="current">магазин</a></li>
+              <li><a href="#">контакты</a></li>
+            </ul>
+          </div>
+          <div class="purchases">
+            <a href="#">корзина</a>
+          </div>
+        </div>
+        <div class="heading2">Магазин готовых шаблонов</div>
+      </div>
+    </header>
+    <main>
+      <div class="container clearfix">
+        <form method="get">
+          <div class="geting">Стоимость:</div>
+          <div class="filter">
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar"></div>
+              </div>
+              <div class="toggle toggle-min"></div>
+              <div class="toggle toggle-max"></div>
+            </div>
+            <div class="price">
+              <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+              <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
+              <label></label>
+            </div>
+          </div>
+        </form>
+        <aside class="catalog-filter">
+          <form method="get">
+            <h3>Cетка:</h3>
+            <input type="radio" id="rd1" checked>
+            <label for="rd1">Адаптированная</label>
+            <input type="radio" id="rd2">
+            <label for="rd2">Фиксированная</label>
+            <input type="radio" id="rd3">
+            <label for="rd3">Резиновая</label>
+          </form>
+        </aside>
+        <aside class="catalog-filter">
+          <form method="get">
+            <h3>Особенности:</h3>
+            <input type="checkbox" id="ch1" checked>
+            <label for="ch1">Слайдер</label>
+            <input type="checkbox" id="ch2">
+            <label for="ch2">Блок преимуществ</label>
+            <input type="checkbox" id="ch3" checked>
+            <label for="ch3">Новости</label>
+            <input type="checkbox" id="ch4">
+            <label for="ch4">Галерея</label>
+            <input type="checkbox" id="ch5">
+            <label for="ch5">Корзина</label>
+          </form>
+        </aside>
+        <!--
+        <form method="get" class="radio">
+          <div class="radioding">Сетка:</div>
+          <input type="radio" name="Adaptive" value="Adaptive" checked>
+          <label class="catalog-label">Адаптивная</label><br>
+
+          <input type="radio" name="Fixed" value="Fixed">
+          <label class="catalog-label">Фиксированная</label><br>
+
+          <input type="radio" name="Rubber" value="Rubber">
+          <label class="catalog-label">Резиновая</label><br>
+        </form>
+        <form method="get" class="features">
+          <div class="featuresing">Осебенности:</div>
+          <input type="checkbox" name="features1" checked>
+          <label class="catalog-label">Слайдер</label>
+          <input type="checkbox" name="features2">
+          <label class="catalog-label">Блок преимуществ</label>
+          <input type="checkbox" name="features3" checked>
+          <label class="catalog-label">Новости</label>
+          <input type="checkbox" name="features4">
+          <label class="catalog-label">Галерея</label>
+          <input type="checkbox" name="features5">
+          <label class="catalog-label">Корзина</label>
+        </form>
+      -->
+        <div class="button">
+          <a class="btn" href="#">Показать</a>
+        </div>
+      <div class="web-pajes">
+        <div class="sort">
+          <div class="sorting">Сортировать:</div>
+          <ul>
+            <li class="active">По цене</li>
+            <li>По типу</li>
+            <li>По названию</li>
+          </ul>
+        </div>
+        <div class="things clearfix">
+          <a href="#" class="catalog-item">
+              <figure class="catalog-image">
+                  <img src="img/img-sedona.jpg" width="360" height="575" alt="Sedona">
+              </figure>
+              <div class="catalog-item-block">
+                  <h3 class="catalog-item-title">Sedona</h3>
+                  <p class="catalog-item-info">Информационный сайт для туристов</p>
+                  <span class="btns catalog-item-btn">9900 Руб.</span>
+              </div>
+          </a>
+          <a href="#" class="catalog-item">
+              <figure class="catalog-image">
+                  <img src="img/img-pink.jpg" width="360" height="575" alt="Pink App">
+              </figure>
+              <div class="catalog-item-block">
+                  <h3 class="catalog-item-title">Pink App</h3>
+                  <p class="catalog-item-info">Продуктовый лендинг приложения для iOS и Android</p>
+                  <span class="btns catalog-item-btn">9900 Руб.</span>
+              </div>
+          </a>
+          <a href="#" class="catalog-item">
+              <figure class="catalog-image">
+                  <img src="img/img-barbershop.jpg" width="360" height="575" alt="Barbershop">
+              </figure>
+              <div class="catalog-item-block">
+                  <h3 class="catalog-item-title">Barbershop</h3>
+                  <p class="catalog-item-info">Сайт салоны красоты. Для мужчин, да.</p>
+                  <span class="btns catalog-item-btn">9900 Руб.</span>
+              </div>
+          </a>
+          <a href="#" class="catalog-item">
+              <figure class="catalog-image">
+                  <img src="img/img-mishka.jpg" width="360" height="575" alt="MISHKA">
+              </figure>
+              <div class="catalog-item-block">
+                  <h3 class="catalog-item-title">MISHKA</h3>
+                  <p class="catalog-item-info">Интернет-магазин вязаных игрушек</p>
+                  <span class="btns catalog-item-btn">9900 Руб.</span>
+              </div>
+          </a>
+          <a href="#" class="catalog-item">
+              <figure class="catalog-image">
+                  <img src="img/img-aplus.jpg" width="360" height="575" alt="A Plus">
+              </figure>
+              <div class="catalog-item-block">
+                  <h3 class="catalog-item-title">A Plus</h3>
+                  <p class="catalog-item-info">Лендинг курсов повышения квалификации</p>
+                  <span class="btns">9900 Руб.</span>
+              </div>
+          </a>
+          <a href="#" class="catalog-item">
+              <figure class="catalog-image">
+                  <img src="img/img-kvast.jpg" width="360" height="575" alt="Кваст">
+              </figure>
+              <div class="catalog-item-block">
+                  <h3 class="catalog-item-title">Кваст</h3>
+                  <p class="catalog-item-info">Промо-сайт производителя крафтового кваса</p>
+                  <span class="btns catalog-item-btn">9900 Р.</span>
+              </div>
+          </a>
+        </div>
+        <div class="pagination">
+          <a class="catalog-active" href="#">1</a>
+          <a class="not" href="#">2</a>
+          <a class="not" href="#">3</a>
+          <a class="next btn" href="#">Cледующая</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container clearfix">
+      <div class="social">
+        <a href="#" class="ff"><div class="radius"><img id="vk" src="img/vk-icon.png" width="26" height="15" alt="vk" /></div></a>
+        <a href="#" class="ss"><div class="radius"><img id="fb" src="img/fb-icon.png" width="12" height="22" alt="face" /></div></a>
+        <a href="#" class="ttt"><div class="radius"><img id="insta" src="img/insta-icon.png" width="21" height="21" alt="insta" /></div></a>
+      </div>
+      <div class="benefit">
+        <div class="big-text">Давайте дружить, это выгодно!</div>
+        <p>Скидки 10% для друзей из социальных сетей.</p>
+      </div>
+    </div>
+  </footer>
+  <div class="feedback">
+    <form action="/feedback" method="post">
+      <div class="feedback-user"></div>
+    </form>
+    <form action="/feedback" method="post">
+      <div class="text-on-foot">Напишите нам</div>
+      <div class="feedback-user clearfix">
+        <div class="feedback-left-column">
+          <label class="feedback-data" for="feedback-login"><p>Ваше имя:</p></label>
+          <input type="text" name="login" id="feedback-login" placeholder="Представьтесь, пожалуйста" required>
+        </div>
+        <div class="feedback-right-column">
+          <label class="feedback-data" for="feedback-email"><p>Ваш e-mail:</p></label>
+          <input type="email" name="email" id="feedback-email" placeholder="Для отправки ответа" required>
+        </div>
+      </div>
+      <label class="feedback-data" for="feedback-textarea">Текст письма:</label>
+      <textarea name="text" id="feedback-textarea" placeholder="В свободной форме" required rows="9" cols="92"></textarea>
+      <div class="feedback-block clearfix">
+        <button type="submit" class="btdw">Отправить</button>
+      </div>
+      <button class="feedback-close" type="button" title="Закрыть"></button>
+    </form>
+  </div>
+  <script>
+      var link = document.querySelector(".poster");
+      var popup = document.querySelector(".feedback");
+      var close = document.querySelector(".feedback-close");
+      var login = document.querySelector("[name=login]");
+      var form = popup.querySelector("form");
+      var password = popup.querySelector("[name=email]");
+
+      link.addEventListener("click", function(event) {
+        event.preventDefault();
+        popup.classList.add("feedback-show");
+        login.focus();
+      });
+      close.addEventListener("click", function(event) {
+        event.preventDefault();
+        popup.classList.remove("feedback-show");
+      });
+      form.addEventListener("submit", function(event) {
+        event.preventDefault();
+      });
+      form.addEventListener("submit", function(event) {
+        if (!login.value || !email.value) {
+          event.preventDefault();
+          alert("Нужно ввести логин и пароль");
+        }
+      });
+    </script>
+  </body>
+</html>
